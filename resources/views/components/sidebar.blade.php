@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/news" class="nav-link {{ Request::is('news') ? 'active' : '' }}">
+                    <a href="/news" class="nav-link {{ Request::is('news*') ? 'active' : '' }}">
                         <i class="nav-icon fa-solid fa-pen-to-square"></i>
                         <p>
                             News
